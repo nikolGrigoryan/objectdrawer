@@ -1,0 +1,15 @@
+PROJECT_NAME      = "ObjectDrawer"
+PROJECT_BRIEF     = "Command-driven Qt application for drawing shapes"
+OUTPUT_DIRECTORY  = docs
+FULL_PATH_NAMES   = NO
+STRIP_FROM_PATH   = .
+INPUT             = .
+RECURSIVE         = YES
+FILE_PATTERNS     = *.h \
+                    *.cpp
+EXCLUDE           = build \
+                    docs
+GENERATE_LATEX    = NO
+WARN_IF_UNDOCUMENTED = YES
+WARN_IF_DOC_ERROR = YES
+WARN_NO_PARAMDOC  = YES
